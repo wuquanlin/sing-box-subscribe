@@ -109,7 +109,7 @@
         "America",
         "冷门节点"
       ],
-      "default": "America"
+      "default": "Japan"
     },
     {
       "tag":"Google",
@@ -184,7 +184,7 @@
         "America",
         "冷门节点"
       ],
-      "default": "自动"
+      "default": "direct"
     },
     {
       "tag":"Bahamut",
@@ -214,7 +214,7 @@
         "America",
         "冷门节点"
       ],
-      "default": "自动"
+      "default": "Japan"
     },
     {
       "tag":"TikTok",
@@ -229,7 +229,7 @@
         "America",
         "冷门节点"
       ],
-      "default": "自动"
+      "default": "America"
     },
     {
       "tag":"Netflix",
@@ -244,7 +244,7 @@
         "America",
         "冷门节点"
       ],
-      "default": "自动"
+      "default": "Singapore"
     },
     {
       "tag":"Disney+",
@@ -274,7 +274,7 @@
         "America",
         "冷门节点"
       ],
-      "default": "自动"
+      "default": "direct"
     },
     {
       "tag":"Microsoft",
@@ -289,7 +289,7 @@
         "America",
         "冷门节点"
       ],
-      "default": "自动"
+      "default": "direct"
     },
     {
       "tag":"Games",

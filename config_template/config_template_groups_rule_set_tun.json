@@ -63,7 +63,7 @@
         "172.19.0.0/30"
       ],
       "mtu": 9000,
-      "自动_route": true,
+      "auto_route": true,
       "strict_route": true,
       "stack": "system",
       "platform": {
@@ -423,7 +423,7 @@
     }
   ],
   "route": {
-    "自动_detect_interface": true,
+    "auto_detect_interface": true,
     "final": "Proxy",
     "rules": [
       {

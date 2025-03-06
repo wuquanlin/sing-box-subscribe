@@ -100,6 +100,9 @@
       "tag":"OpenAI",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
+        "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
@@ -112,71 +115,98 @@
       "tag":"Google",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Telegram",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Twitter",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Facebook",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"BiliBili",
       "type":"selector",
       "outbounds":[
+        "自动",
         "direct",
         "HongKong",
-        "TaiWan"
-      ]
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
+        "冷门节点"
+      ],
+      "default": "自动"
     },
     {
       "tag":"Bahamut",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
+        "HongKong",
         "TaiWan",
-        "Proxy"
-      ]
+        "Singapore",
+        "Japan",
+        "America",
+        "冷门节点"
+      ],
+      "default": "自动"
     },
     {
       "tag":"Spotify",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
@@ -184,48 +214,58 @@
         "America",
         "冷门节点"
       ],
-      "default": "America"
+      "default": "自动"
     },
     {
       "tag":"TikTok",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
-        "America"
+        "America",
+        "冷门节点"
       ],
-      "default": "Japan"
+      "default": "自动"
     },
     {
       "tag":"Netflix",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Disney+",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Apple",
       "type":"selector",
       "outbounds":[
+        "自动",
         "direct",
         "HongKong",
         "TaiWan",
@@ -233,12 +273,14 @@
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Microsoft",
       "type":"selector",
       "outbounds":[
+        "自动",
         "direct",
         "HongKong",
         "TaiWan",
@@ -246,12 +288,14 @@
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Games",
       "type":"selector",
       "outbounds":[
+        "自动",
         "direct",
         "HongKong",
         "TaiWan",
@@ -259,32 +303,38 @@
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Streaming",
       "type":"selector",
       "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
         "冷门节点"
-      ]
+      ],
+      "default": "自动"
     },
     {
       "tag":"Global",
       "type":"selector",
-      "outbounds":[ 
+      "outbounds":[
+        "自动",
+        "direct",
         "HongKong",
         "TaiWan",
         "Singapore",
         "Japan",
         "America",
-        "冷门节点",
-        "direct"
-      ]
+        "冷门节点"
+      ],
+      "default": "自动"
     },
     {
       "tag":"China",
@@ -296,7 +346,7 @@
     },
     {
       "tag":"HongKong",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
@@ -306,7 +356,7 @@
     },
     {
       "tag":"TaiWan",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
@@ -316,7 +366,7 @@
     },
     {
       "tag":"Singapore",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
@@ -326,7 +376,7 @@
     },
     {
       "tag":"Japan",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],
@@ -336,7 +386,7 @@
     },
     {
       "tag":"America",
-      "type":"selector",
+      "type":"urltest",
       "outbounds":[
         "{all}"
       ],

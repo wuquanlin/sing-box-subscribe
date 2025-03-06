@@ -63,7 +63,7 @@
         "172.19.0.0/30"
       ],
       "mtu": 9000,
-      "auto_route": true,
+      "自动_route": true,
       "strict_route": true,
       "stack": "system",
       "platform": {
@@ -86,8 +86,13 @@
       "tag":"Proxy",
       "type":"selector",
       "outbounds":[
-        "auto",
+        "自动",
         "direct",
+        "HongKong",
+        "TaiWan",
+        "Singapore",
+        "Japan",
+        "America",
         "{all}"
       ]
     },
@@ -99,7 +104,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ],
       "default": "America"
     },
@@ -112,7 +117,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -124,7 +129,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -136,7 +141,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -148,7 +153,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -177,7 +182,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ],
       "default": "America"
     },
@@ -202,7 +207,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -214,7 +219,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -227,7 +232,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -240,7 +245,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -253,7 +258,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -265,7 +270,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others"
+        "冷门节点"
       ]
     },
     {
@@ -277,7 +282,7 @@
         "Singapore",
         "Japan",
         "America",
-        "Others",
+        "冷门节点",
         "direct"
       ]
     },
@@ -340,7 +345,7 @@
       ]
     },
     {
-      "tag":"Others",
+      "tag":"冷门节点",
       "type":"selector",
       "outbounds":[
         "{all}"
@@ -350,13 +355,13 @@
       ]
     },
     {
-      "tag":"auto",
+      "tag":"自动",
       "type":"urltest",
       "outbounds":[
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["网站|地址|剩余|过期|时间|有效"]}
+        {"action":"exclude","keywords":["访问|网站|地址|剩余|过期|时间|有效流量|到期|剩余|联系|电报|剩余|重置|Expire|Traffic|客服|官网|订阅"]}
       ],
       "url": "http://www.gstatic.com/generate_204",
       "interval": "10m",
@@ -368,7 +373,7 @@
     }
   ],
   "route": {
-    "auto_detect_interface": true,
+    "自动_detect_interface": true,
     "final": "Proxy",
     "rules": [
       {
